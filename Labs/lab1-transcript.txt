@@ -1,0 +1,7 @@
+GHCi, version 8.4.3: http://www.haskell.org/ghc/  :? for help
+Prelude> :load lab1
+[1 of 1] Compiling Main             ( lab1.hs, interpreted )
+Ok, one module loaded.
+*Main> myTurn 25.3 16
+(160,True)
+*Main> 

@@ -1,0 +1,121 @@
+Dounglan Cheung
+Lab 8
+
+Problem 1
+a.
+lcs-208-169:cis252 dcheun01$ wc jumblies.txt threeMen.txt
+     109     644    3640 jumblies.txt
+    7704   69849  395571 threeMen.txt
+    7813   70493  399211 total
+b.
+lcs-208-169:cis252 dcheun01$ cat jumblies.txt threeMen.txt | wc > myResults
+c.
+lcs-208-169:cis252 dcheun01$ cat myResults
+    7813   70493  399211
+
+Problem2
+a.
+lcs-208-169:cis252 dcheun01$ grep 'w' /usr/share/dict/words | grep 'ox'
+boxwallah
+boxwood
+boxwork
+cowpox
+coxswain
+foxwood
+oxbow
+oxharrow
+oxwort
+oxywelding
+shadowbox
+shadowboxing
+sweatbox
+werefox
+wheelbox
+workbox
+wrox
+
+b.
+lcs-208-169:cis252 dcheun01$ grep '^g' /usr/share/dict/words | grep 'th$'
+gagtooth
+gainbirth
+galuth
+ganderteeth
+garth
+gastrolith
+gesith
+girth
+gith
+gittith
+gloomth
+glyptolith
+goalmouth
+goldsmith
+goliath
+goosemouth
+graith
+granolith
+gravecloth
+gravegarth
+greenth
+grith
+groatsworth
+growth
+gunsmith
+gyrolith
+
+c.
+lcs-208-169:cis252 dcheun01$ grep '^.bc' /usr/share/dict/words
+abcoulomb
+obclavate
+obclude
+obcompressed
+obconical
+obcordate
+obcordiform
+obcuneate
+
+d.
+lcs-208-169:cis252 dcheun01$ grep 'e.*e.*e.*e.*e.*e' /usr/share/dict/words | grep -v 'e.*e.*e.*e.*e.*e.*e'
+degenerescence
+feebleheartedness
+hexamethylenetetramine
+stereotelemeter
+
+e.
+lcs-208-169:cis252 dcheun01$ grep '..' /usr/share/dict/words | grep -v '....' | grep 'z'
+adz
+azo
+biz
+coz
+fez
+gaz
+gez
+guz
+Laz
+Liz
+Odz
+suz
+tez
+wiz
+yez
+za
+zac
+zad
+zag
+zak
+zar
+zat
+zax
+zed
+zee
+zel
+zer
+zig
+zip
+zo
+zoa
+zoo
+
+Problem 3
+lcs-208-169:cis252 dcheun01$ grep -i 'mont' threeMen.txt | wc -l
+      76
